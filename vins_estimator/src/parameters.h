@@ -27,7 +27,7 @@ extern std::vector<Eigen::Vector3d> TIC;//从相机到IMU的平移向量
 extern Eigen::Vector3d G;//重力[0,0,g]
 
 extern double BIAS_ACC_THRESHOLD;//Ba阈值
-extern double BIAS_GYR_THRESHOLD;//Ba阈值
+extern double BIAS_GYR_THRESHOLD;//Bw阈值
 extern double SOLVER_TIME;//最大解算时间（以保证实时性）
 extern int NUM_ITERATIONS;//最大解算器迭代次数（以保证实时性）
 extern std::string EX_CALIB_RESULT_PATH;//相机与IMU外参的输出路径OUTPUT_PATH + "/extrinsic_parameter.csv"
